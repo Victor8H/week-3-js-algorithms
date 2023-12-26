@@ -1,0 +1,8 @@
+function getStringLength(str) {
+  // Use the length property of the string to get its length
+  return str.length;
+}
+
+// Test the function
+console.log(getStringLength('sergii')); // Output: 6
+console.log(getStringLength('alex'));   // Output: 4
