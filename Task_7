@@ -1,0 +1,12 @@
+function longerString(str1, str2) {
+  if (str1.length > str2.length) {
+    return str1;
+  } else {
+    return str2;
+  }
+}
+
+// Test the function
+console.log(longerString('codemify', 'test'));          // Output: codemify
+console.log(longerString('automation', 'coding'));      // Output: automation
+console.log(longerString('automation', 'the codemify')); // Output: the codemify
