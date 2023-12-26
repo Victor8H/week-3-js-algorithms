@@ -1,0 +1,13 @@
+function isBiggerThan5(number) {
+  if (number > 5) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+// Test the function
+console.log(isBiggerThan5(6)); // Output: true
+console.log(isBiggerThan5(5)); // Output: false
+console.log(isBiggerThan5(4)); // Output: false
+console.log(isBiggerThan5(1)); // Output: false
