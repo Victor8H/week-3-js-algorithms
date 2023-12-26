@@ -1,0 +1,12 @@
+function divideByTwo(numberToDivide) {
+  // Divide the given number by 2 and return the result
+  return numberToDivide / 2;
+}
+
+// Test the function
+console.log(divideByTwo(6));    // Output: 3
+console.log(divideByTwo(105));  // Output: 52.5
+
+// Assigning result to a constant
+const result = divideByTwo(6);
+console.log(result);            // Output: 3
