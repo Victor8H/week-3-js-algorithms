@@ -1,0 +1,9 @@
+const first = 5;
+const second = 4;
+
+// If statement to check if first is bigger than second
+if (first > second) {
+  console.log("Variable 'first' is bigger than 'second'");
+} else {
+  console.log("Variable 'first' is not bigger than 'second'");
+}
