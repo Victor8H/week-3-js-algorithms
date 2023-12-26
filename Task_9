@@ -1,0 +1,15 @@
+function compareAge(name, age) {
+  const myAge = 28; // Replace with your actual age
+  if (age > myAge) {
+    return `${name} is older than me.`;
+  } else if (age < myAge) {
+    return `${name} is younger than me.`;
+  } else {
+    return `${name} is the same age as me.`;
+  }
+}
+
+// Test the function
+console.log(compareAge("Joel", 36));   // Output: "Joel is older than me."
+console.log(compareAge("Samuel", 24));  // Output: "Samuel is younger than me."
+console.log(compareAge("Lily", 28));    // Output: "Lily is the same age as me."
