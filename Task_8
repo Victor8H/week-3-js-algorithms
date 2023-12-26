@@ -1,0 +1,8 @@
+function checkEquality(a, b) {
+  return a === b;
+}
+
+// Test the function
+console.log(checkEquality(1, true));  // Output: false
+console.log(checkEquality(0, "0"));    // Output: false
+console.log(checkEquality(1, 1));      // Output: true
