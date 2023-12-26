@@ -1,0 +1,12 @@
+function findBiggerNumber(firstNum, secondNum) {
+  if (firstNum > secondNum) {
+    return firstNum;
+  } else {
+    return secondNum;
+  }
+}
+
+// Test the function
+console.log(findBiggerNumber(6, 7)); // Output: 7
+console.log(findBiggerNumber(5, 1)); // Output: 5
+console.log(findBiggerNumber(2, 2)); // Output: 2
